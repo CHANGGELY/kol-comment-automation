@@ -1,0 +1,26 @@
+<!-- 文件说明：项目 Logo（SVG 矢量），用于 README 展示与品牌识别 -->
+<svg width="640" height="200" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#2EAD33"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="20" y="20" width="600" height="160" rx="18" fill="url(#g)" filter="url(#shadow)"/>
+
+  <g fill="#FFFFFF" font-family="Segoe UI, PingFang SC, Helvetica, Arial" text-anchor="start">
+    <text x="48" y="92" font-size="42" font-weight="700">KOL 评论区引流器</text>
+    <text x="48" y="132" font-size="20" opacity="0.9">KOL Comment Automation · Playwright · Vision · OCR · Captcha</text>
+  </g>
+
+  <g transform="translate(520, 52)">
+    <circle cx="40" cy="40" r="36" fill="#FFFFFF" opacity="0.18"/>
+    <circle cx="40" cy="40" r="24" fill="#FFFFFF" opacity="0.28"/>
+    <path d="M32 44 L40 28 L48 44 Z" fill="#FFFFFF"/>
+  </g>
+</svg>
